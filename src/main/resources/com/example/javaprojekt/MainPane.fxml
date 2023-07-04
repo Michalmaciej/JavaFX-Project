@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaprojekt.Controller">
+   <children>
+      <TabPane prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Materiały z wykładów">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TabPane prefHeight="372.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+                          <tabs>
+                            <Tab text="W01">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <Button fx:id="firstone" layoutX="247.0" layoutY="311.0" mnemonicParsing="false" onAction="#showFirstFirst" text="|&lt;" />
+                                          <Button fx:id="previousone" layoutX="275.0" layoutY="311.0" mnemonicParsing="false" onAction="#showPreviousImageFirst" text="&lt;" />
+                                          <Button fx:id="nextone" layoutX="300.0" layoutY="311.0" mnemonicParsing="false" onAction="#showNextImageFirst" text="&gt;" />
+                                          <Button fx:id="lastone" layoutX="325.0" layoutY="311.0" mnemonicParsing="false" onAction="#showLastFirst" text="&gt;|" />
+                                          <ImageView fx:id="WOne" fitHeight="306.0" fitWidth="235.0" layoutX="189.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="C:\Users\mm_01\IdeaProjects\JavaProjekt\src\main\java\com\example\javaprojekt\W1\W1_0.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <TextField fx:id="txtone" layoutX="554.0" layoutY="299.0" prefHeight="25.0" prefWidth="32.0" />
+                                          <Button layoutX="494.0" layoutY="299.0" mnemonicParsing="false" onAction="#gotopageone" text="Go to" />
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                            <Tab text="W02">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                    <children>
+                                        <Button layoutX="247.0" layoutY="311.0" mnemonicParsing="false" onAction="#showFirstSec" text="|&lt;" />
+                                        <Button layoutX="275.0" layoutY="311.0" mnemonicParsing="false" onAction="#showPrevSec" text="&lt;" />
+                                        <Button layoutX="300.0" layoutY="311.0" mnemonicParsing="false" onAction="#showNextSec" text="&gt;" />
+                                        <Button layoutX="325.0" layoutY="311.0" mnemonicParsing="false" onAction="#showLastSec" text="&gt;|" />
+                                        <ImageView fx:id="WTwo" fitHeight="306.0" fitWidth="235.0" layoutX="189.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="C:\Users\mm_01\IdeaProjects\JavaProjekt\src\main\java\com\example\javaprojekt\W1\W2_0.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <TextField fx:id="txttwo" layoutX="554.0" layoutY="299.0" prefHeight="25.0" prefWidth="32.0" />
+                                        <Button layoutX="494.0" layoutY="299.0" mnemonicParsing="false" onAction="#gotopagetwo" text="Go to" />
+                                    </children>
+                                </AnchorPane>
+                              </content>
+                            </Tab>
+                              <Tab text="W03">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                        <children>
+                                            <Button layoutX="247.0" layoutY="311.0" mnemonicParsing="false" onAction="#showFirstThir" text="|&lt;" />
+                                            <Button layoutX="275.0" layoutY="311.0" mnemonicParsing="false" onAction="#showPrevThir" text="&lt;" />
+                                            <Button layoutX="300.0" layoutY="311.0" mnemonicParsing="false" onAction="#showNextThir" text="&gt;" />
+                                            <Button layoutX="325.0" layoutY="311.0" mnemonicParsing="false" onAction="#showLastThir" text="&gt;|" />
+                                            <ImageView fx:id="WThree" fitHeight="306.0" fitWidth="235.0" layoutX="189.0" pickOnBounds="true" preserveRatio="true">
+                                                <image>
+                                                    <Image url="C:\Users\mm_01\IdeaProjects\JavaProjekt\src\main\java\com\example\javaprojekt\W1\W3_0.jpg" />
+                                                </image>
+                                            </ImageView>
+                                            <TextField fx:id="txtthree" layoutX="554.0" layoutY="299.0" prefHeight="25.0" prefWidth="32.0" />
+                                            <Button layoutX="494.0" layoutY="299.0" mnemonicParsing="false" onAction="#gotopagethree" text="Go to" />
+                                        </children>
+                                    </AnchorPane>
+                                 </content>
+                              </Tab>
+                              <Tab text="W04">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                         <children>
+                                             <Button layoutX="247.0" layoutY="311.0" mnemonicParsing="false" onAction="#showFirstForth" text="|&lt;" />
+                                             <Button layoutX="275.0" layoutY="311.0" mnemonicParsing="false" onAction="#showPrevForth" text="&lt;" />
+                                             <Button layoutX="300.0" layoutY="311.0" mnemonicParsing="false" onAction="#showNextForth" text="&gt;" />
+                                             <Button layoutX="325.0" layoutY="311.0" mnemonicParsing="false" onAction="#showLastForth" text="&gt;|" />
+                                             <ImageView fx:id="WFour" fitHeight="306.0" fitWidth="235.0" layoutX="189.0" pickOnBounds="true" preserveRatio="true">
+                                                 <image>
+                                                     <Image url="C:\Users\mm_01\IdeaProjects\JavaProjekt\src\main\java\com\example\javaprojekt\W1\W4_0.png" />
+                                                 </image>
+                                             </ImageView>
+                                             <TextField fx:id="txtfour" layoutX="554.0" layoutY="299.0" prefHeight="25.0" prefWidth="32.0" />
+                                             <Button layoutX="494.0" layoutY="299.0" mnemonicParsing="false" onAction="#gotopagefour" text="Go to" />
+                                         </children>
+                                     </AnchorPane>
+                                 </content>
+                              </Tab>
+                          </tabs>
+                        </TabPane>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Materiały z laboratorium">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TabPane prefHeight="370.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+                          <tabs>
+                            <Tab text="Lab 1">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TabPane prefHeight="342.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+                                            <tabs>
+                                              <Tab text="Ćwiczenie 1">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <TabPane prefHeight="314.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+                                                              <tabs>
+                                                                <Tab text="1.1">
+                                                                  <content>
+                                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                                  </content>
+                                                                </Tab>
+                                                                <Tab text="1.2">
+                                                                  <content>
+                                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                                  </content>
+                                                                </Tab>
+                                                              </tabs>
+                                                            </TabPane>
+                                                         </children></AnchorPane>
+                                                </content>
+                                              </Tab>
+                                              <Tab text="Ćwiczenie 2">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <TabPane prefHeight="313.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+                                                              <tabs>
+                                                                <Tab text="2.1">
+                                                                  <content>
+                                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                                  </content>
+                                                                </Tab>
+                                                                <Tab text="2.2">
+                                                                  <content>
+                                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                                  </content>
+                                                                </Tab>
+                                                              </tabs>
+                                                            </TabPane>
+                                                         </children></AnchorPane>
+                                                </content>
+                                              </Tab>
+                                            </tabs>
+                                          </TabPane>
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                            <Tab text="Lab 2">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TabPane prefHeight="344.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+                                            <tabs>
+                                              <Tab text="Ćwiczenie 1">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <TabPane prefHeight="314.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+                                                              <tabs>
+                                                                <Tab text="1.1">
+                                                                  <content>
+                                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                                  </content>
+                                                                </Tab>
+                                                                <Tab text="1.2">
+                                                                  <content>
+                                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                                  </content>
+                                                                </Tab>
+                                                              </tabs>
+                                                            </TabPane>
+                                                         </children></AnchorPane>
+                                                </content>
+                                              </Tab>
+                                              <Tab text="Ćwiczenie 2">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <TabPane prefHeight="315.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+                                                              <tabs>
+                                                                <Tab text="2.1">
+                                                                  <content>
+                                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                                  </content>
+                                                                </Tab>
+                                                                <Tab text="2.2">
+                                                                  <content>
+                                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                                  </content>
+                                                                </Tab>
+                                                              </tabs>
+                                                            </TabPane>
+                                                         </children></AnchorPane>
+                                                </content>
+                                              </Tab>
+                                            </tabs>
+                                          </TabPane>
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                              <Tab text="Lab 3">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TabPane prefHeight="342.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+                                            <tabs>
+                                              <Tab text="Ćwiczenie 1">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <TabPane prefHeight="313.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+                                                              <tabs>
+                                                                <Tab text="1.1">
+                                                                  <content>
+                                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                                  </content>
+                                                                </Tab>
+                                                                <Tab text="1.2">
+                                                                  <content>
+                                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                                  </content>
+                                                                </Tab>
+                                                              </tabs>
+                                                            </TabPane>
+                                                         </children></AnchorPane>
+                                                </content>
+                                              </Tab>
+                                              <Tab text="Ćwiczenie 2">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <TabPane prefHeight="313.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+                                                              <tabs>
+                                                                <Tab text="2.1">
+                                                                  <content>
+                                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                                  </content>
+                                                                </Tab>
+                                                                <Tab text="2.2">
+                                                                  <content>
+                                                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                                                  </content>
+                                                                </Tab>
+                                                              </tabs>
+                                                            </TabPane>
+                                                         </children></AnchorPane>
+                                                </content>
+                                              </Tab>
+                                            </tabs>
+                                          </TabPane>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </Tab>
+                          </tabs>
+                        </TabPane>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Test zaliczeniowy">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="109.0" layoutY="97.0" mnemonicParsing="false" onAction="#switchToSolve" prefHeight="178.0" prefWidth="382.0" text="Rozwiąż" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

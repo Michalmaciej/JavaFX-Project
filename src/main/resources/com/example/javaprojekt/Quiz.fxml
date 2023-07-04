@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane prefHeight="402.0" prefWidth="878.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaprojekt.Controller">
+    <content>
+        <VBox prefHeight="1306.0" prefWidth="871.0">
+            <Label text="Test ABCD - Java" />
+
+            <Label text="Pytanie 1: Co robi ten kod?" />
+            <ImageView fitHeight="198.0" fitWidth="351.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="file:/C:/Users/mm_01/IdeaProjects/JavaProjekt/src/main/resources/img/zad1.jpg" />
+                </image>
+            </ImageView>
+            <CheckBox fx:id="question1OptionA" text="Znajduje minimalną wartość w tablicy" />
+            <CheckBox fx:id="question1OptionB" text="Znajduje średnią wartość z elementów tablicy" />
+            <CheckBox fx:id="question1OptionC" text="Znajduje największą wartość w tablicy" />
+            <CheckBox fx:id="question1OptionD" text="Znajduje sumę wszystkich elementów tablicy" />
+
+            <Label text="Pytanie 2: Co robi ten kod?" />
+            <ImageView fitHeight="104.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="file:/C:/Users/mm_01/IdeaProjects/JavaProjekt/src/main/resources/img/zad2.jpeg" />
+                </image>
+            </ImageView>
+            <CheckBox fx:id="question2OptionA" text="Odejmuje dwie liczby" />
+            <CheckBox fx:id="question2OptionB" text="Mnoży dwie liczby" />
+            <CheckBox fx:id="question2OptionC" text="Dodaje dwie liczby" />
+            <CheckBox fx:id="question2OptionD" text="Dzieli dwie liczby" />
+
+            <Label text="Pytanie 3: Które z poniższych są technologiami wykorzystywanymi w Javie do tworzenia aplikacji webowych? (Możliwość wyboru kilku odpowiedzi)" />
+            <CheckBox fx:id="question3OptionA" text="JavaFX" />
+            <CheckBox fx:id="question3OptionB" text="Java Swing" />
+            <CheckBox fx:id="question3OptionC" text="JavaServer Faces (JSF)" />
+            <CheckBox fx:id="question3OptionD" text="Servlety" />
+
+            <Label text="Pytanie 4: Które z poniższych są częściami Java SE i Java EE? (Możliwość wyboru kilku odpowiedzi)" />
+            <CheckBox fx:id="question4OptionA" text="JDBC" />
+            <CheckBox fx:id="question4OptionB" text="JSP (JavaServer Pages)" />
+            <CheckBox fx:id="question4OptionC" text="JavaFX" />
+            <CheckBox fx:id="question4OptionD" text="EJB (Enterprise JavaBeans)" />
+
+            <Label text="Pytanie 5: Które z poniższych są frameworkami wykorzystywanymi w Javie do testowania jednostkowego? (Możliwość wyboru kilku odpowiedzi)" />
+            <CheckBox fx:id="question5OptionA" text="JUnit" />
+            <CheckBox fx:id="question5OptionB" text="TestNG" />
+            <CheckBox fx:id="question5OptionC" text="Mockito" />
+            <CheckBox fx:id="question5OptionD" text="Cucumber" />
+
+            <Label text="Pytanie 6: Który z poniższych jest frameworkiem do mapowania obiektowo-relacyjnego w Javie?" />
+            <CheckBox fx:id="question6OptionA" text="Hibernate" />
+            <CheckBox fx:id="question6OptionB" text="Spring Framework" />
+            <CheckBox fx:id="question6OptionC" text="JavaServer Faces (JSF)" />
+            <CheckBox fx:id="question6OptionD" text="JPA (Java Persistence API)" />
+
+            <Label text="Pytanie 7: Które z poniższych są częściami Java Standard Edition (Java SE)?" />
+            <CheckBox fx:id="question7OptionA" text="JDK (Java Development Kit)" />
+            <CheckBox fx:id="question7OptionB" text="JRE (Java Runtime Environment)" />
+            <CheckBox fx:id="question7OptionC" text="Java EE (Enterprise Edition)" />
+            <CheckBox fx:id="question7OptionD" text="Java Android App Development Kit" />
+
+            <Label text="Pytanie 8: Który pakiet w Javie SE jest wykorzystywany do obsługi operacji wejścia/wyjścia?" />
+            <CheckBox fx:id="question8OptionA" text="java.util" />
+            <CheckBox fx:id="question8OptionB" text="java.io" />
+            <CheckBox fx:id="question8OptionC" text="javax.swing" />
+            <CheckBox fx:id="question8OptionD" text="java.net" />
+
+            <Label text="Pytanie 9: Który framework jest wykorzystywany w Javie do inwersji sterowania?" />
+            <CheckBox fx:id="question9OptionA" text="Spring Framework" />
+            <CheckBox fx:id="question9OptionB" text="Hibernate" />
+            <CheckBox fx:id="question9OptionC" text="JavaFX" />
+            <CheckBox fx:id="question9OptionD" text="Java Persistence API (JPA)" />
+
+            <Label text="Pytanie 10: Która technologia Java jest wykorzystywana do tworzenia aplikacji desktopowych z interfejsem użytkownika w stylu webowym?" />
+            <CheckBox fx:id="question10OptionA" text="JavaFX" />
+            <CheckBox fx:id="question10OptionB" text="Java Swing" />
+            <CheckBox fx:id="question10OptionC" text="Java ME (Micro Edition)" />
+            <CheckBox fx:id="question10OptionD" text="JavaServer Faces (JSF)" />
+
+            <Label text="Pytanie 11: Co oznacza skrót JDK?" />
+            <CheckBox fx:id="question11OptionA" text="Java Development Key" />
+            <CheckBox fx:id="question11OptionB" text="Java Development Kit" />
+            <CheckBox fx:id="question11OptionC" text="Java Developer Knowledge" />
+            <CheckBox fx:id="question11OptionD" text="JPA Java Developer Key" />
+
+            <Label text="Pytanie 12: Który z poniższych nie jest komponentem Java SE?" />
+            <CheckBox fx:id="question12OptionA" text="JavaFX" />
+            <CheckBox fx:id="question12OptionB" text="Java Swing" />
+            <CheckBox fx:id="question12OptionC" text="Java Servlets" />
+            <CheckBox fx:id="question12OptionD" text="Java Database Connectivity (JDBC)" />
+
+            <Label text="Pytanie 13: Który framework jest wykorzystywany do mapowania obiektowo-relacyjnego w Javie?" />
+            <CheckBox fx:id="question13OptionA" text="Hibernate" />
+            <CheckBox fx:id="question13OptionB" text="Spring Framework" />
+            <CheckBox fx:id="question13OptionC" text="JavaFX" />
+            <CheckBox fx:id="question13OptionD" text="Java Persistence API (JPA)" />
+
+            <Label text="Pytanie 14: Który skrót oznacza platformę Java EE?" />
+            <CheckBox fx:id="question14OptionA" text="Java Enterprise Edition" />
+            <CheckBox fx:id="question14OptionB" text="Java Embedded Edition" />
+            <CheckBox fx:id="question14OptionC" text="Java Environment Edition" />
+            <CheckBox fx:id="question14OptionD" text="Java Extension Edition" />
+
+            <Label text="Pytanie 15: Który z poniższych frameworków jest wykorzystywany w Java EE do tworzenia aplikacji internetowych?" />
+            <CheckBox fx:id="question15OptionA" text="Hibernate" />
+            <CheckBox fx:id="question15OptionB" text="Spring Framework" />
+            <CheckBox fx:id="question15OptionC" text="JavaFX" />
+            <CheckBox fx:id="question15OptionD" text="JavaServer Faces (JSF)" />
+
+            <Label text="Pytanie 16: Który framework jest wykorzystywany w Javie do wstrzykiwania zależności?" />
+            <CheckBox fx:id="question16OptionA" text="Spring Framework" />
+            <CheckBox fx:id="question16OptionB" text="Hibernate" />
+            <CheckBox fx:id="question16OptionC" text="JavaFX" />
+            <CheckBox fx:id="question16OptionD" text="Java Persistence API (JPA)" />
+
+            <Label text="Pytanie 17: Która technologia Java jest używana do tworzenia aplikacji mobilnych dla systemu Android?" />
+            <CheckBox fx:id="question17OptionA" text="JavaFX" />
+            <CheckBox fx:id="question17OptionB" text="Java Swing" />
+            <CheckBox fx:id="question17OptionC" text="Java ME (Micro Edition)" />
+            <CheckBox fx:id="question17OptionD" text="Java Android App Development Kit" />
+
+            <Label text="Pytanie 18: Która wersja Javy wprowadziła obsługę modułów (modułowy system Javy)?" />
+            <CheckBox fx:id="question18OptionA" text="Java SE 8" />
+            <CheckBox fx:id="question18OptionB" text="Java SE 9" />
+            <CheckBox fx:id="question18OptionC" text="Java SE 10" />
+            <CheckBox fx:id="question18OptionD" text="Java SE 11" />
+
+            <Label text="Pytanie 19: Które z poniższych są frameworkami Java EE? (Możliwość wyboru kilku odpowiedzi)" />
+            <CheckBox fx:id="question19OptionA" text="Hibernate" />
+            <CheckBox fx:id="question19OptionB" text="Spring Framework" />
+            <CheckBox fx:id="question19OptionC" text="JavaServer Faces (JSF)" />
+            <CheckBox fx:id="question19OptionD" text="JPA (Java Persistence API)" />
+
+            <Label text="Pytanie 20: Które z poniższych są komponentami Java SE? (Możliwość wyboru kilku odpowiedzi)" />
+            <CheckBox fx:id="question20OptionA" text="JavaFX" />
+            <CheckBox fx:id="question20OptionB" text="Java Swing" />
+            <CheckBox fx:id="question20OptionC" text="Java Servlets" />
+            <CheckBox fx:id="question20OptionD" text="JDBC" />
+            <Button fx:id="checkAnswersButton" onAction="#checkAnswers" text="Sprawdź odpowiedzi" />
+            <Button fx:id="backToMenu" onAction="#swithToMenu" text="Wróc do menu" />
+        </VBox>
+    </content>
+</ScrollPane>
